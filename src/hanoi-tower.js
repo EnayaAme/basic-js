@@ -24,7 +24,7 @@ function calculateHanoi(disksNumber, turnsSpeed) {
     let num;
        if (disksNumber == 0) {return num = 0} 
       return num = 2 * turnsNum(disksNumber - 1) + 1;
-  }
+  } 
   
   let turnsSec = function(turnsSpeed) {
     return speed =  Math.floor(turnsNum(disksNumber) / (turnsSpeed / 60 / 60));

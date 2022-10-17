@@ -26,7 +26,7 @@ function transform(arr) {
     if (item === "--double-next") {if (index !== arr.length - 1) { item = arr[index + 1];}}
     return item;
     })
-  
+    
   return newArr.filter(item => isFinite(item) === true);
   }
 }
